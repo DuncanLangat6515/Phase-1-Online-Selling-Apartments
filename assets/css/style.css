@@ -10,6 +10,29 @@ a {
     text-decoration: none;
     color: black;
     font-size: 15px;
-    font-family: 'Space Grotesk';
     font-weight: 900;
+}
+.navbar1{
+background-color: whitesmoke;
+align-items: center;
+display: flex;
+
+}
+.header{
+    /* background-color: #ddd; */
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 15px;
+}
+.nav-links>li{
+    list-style: none;
+    padding: 30px;
+    /* background-color: #ddd; */
+}
+.nav-links>li>a:hover{
+    color: blue;
+}
+.nav-links{
+    display: flex;
 }
