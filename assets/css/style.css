@@ -36,9 +36,9 @@ display: flex;
 .nav-links{
     display: flex;
 }
-/* .header__text-box {
+.header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; } */
+    text-align: center; }
