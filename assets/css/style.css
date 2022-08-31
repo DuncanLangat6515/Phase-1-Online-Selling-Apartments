@@ -11,6 +11,7 @@ a {
     color: black;
     font-size: 15px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 .navbar1{
 background-color: whitesmoke;
@@ -42,3 +43,11 @@ display: flex;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+#login{
+    padding: 8px 22px;
+    background: blue;
+    border-radius: 10px;
+}
+#login:hover{
+    background: #3492fd;
+}
