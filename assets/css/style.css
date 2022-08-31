@@ -36,7 +36,9 @@ display: flex;
 .nav-links{
     display: flex;
 }
-body{
-    background: url(/assets/images/malcolm-shadrach-_r80LCluvVM-unsplash.jpg);
-  background-position: 60%;
-}
+/* .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; } */
