@@ -19,6 +19,9 @@ align-items: center;
 display: flex;
 
 }
+section{
+    padding: 4.5rem 0 3rem;
+}
 
 
 .nav-links>li{
@@ -42,3 +45,7 @@ display: flex;
     background: #3492fd;
 }
 
+#home{
+    margin-top: 5rem;
+    background: url(/assets/images/home.jpeg);
+}
