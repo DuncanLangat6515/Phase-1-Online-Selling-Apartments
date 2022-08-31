@@ -36,3 +36,7 @@ display: flex;
 .nav-links{
     display: flex;
 }
+body{
+    background: url(/assets/images/malcolm-shadrach-_r80LCluvVM-unsplash.jpg);
+  background-position: 60%;
+}
