@@ -73,3 +73,11 @@ section{
     font-size: 2rem;
     margin-bottom: 1rem ;
 }
+.about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,auto));
+    gap: 2rem;
+}
+.img img{
+border-radius: 3rem 0 3rem 3rem;
+}
