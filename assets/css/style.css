@@ -47,7 +47,7 @@ section{
 #btn{
     padding: 8px 22px;
     background: blue;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 #btn:hover{
     background: #3492fd;
