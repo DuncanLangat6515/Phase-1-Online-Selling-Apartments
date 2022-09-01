@@ -9,7 +9,7 @@
     /* max-width: 100%; */
 }
 body{
-    background: url(/assets/images/home.jpeg);
+    background: url(/assets/images/home3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -115,11 +115,12 @@ margin-left: 30px;
     color: black;
 }
 .form_1{
-    background: blue;
+    background: rgb(121, 121, 126);
     align-content:center;
     height: 200px;
     width: 50%;
     border-radius: 15px;
+    padding: 30px;
 }
 
 .search{
@@ -147,11 +148,15 @@ margin-left: 30px;
     }
 
 .form__group{
-    color: #3492fd;
-}    
+    color: blue;
+    font-weight: 400;
+} 
+
 .row{
-    color: #3492fd;
+    color: blue;
+    font-weight: 400;
 }
+
 input{
 color: blue;
 cursor: pointer;
