@@ -104,3 +104,27 @@ margin-left: 30px;
 .about-text h2{
 
 }
+
+#sale {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(240px,auto));
+    gap: 2.5rem;
+}
+/* #sale .box{
+    padding: 20px;
+    background: var(--bg-color);
+    box-shadow: var(blue);
+    border-radius: 2rem;
+} */
+
+#button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+#button:hover{
+    cursor: pointer;
+    background: #3492fd;
+    color: black;
+}
