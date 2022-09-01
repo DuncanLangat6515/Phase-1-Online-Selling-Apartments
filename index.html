@@ -12,7 +12,7 @@
 <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel="stylesheet">
 </head>
 <body>
-    <div class="navbar1">
+    <nav>
         <div id="logo"> <img src="assets/images/logo.jpg" alt="For sale" height="80"/>
         </div>
         <div class="navbar">
@@ -23,64 +23,35 @@
                 <li><a href="#contact">Properties</a></li>
             </ul>
         </div>
-        <button id="btn"><a href="#">Login</a></button>
-    </div>
+        <button id="btn"><a href="#">Get Started</a></button>
+      </nav>
+   
     <section class="container" id="home">
         <div class="text">
            <h1>Find A Perfect Home<br> To Live In</h1>
-           <a href="" id="btn"> Sign Up</a>
+           <a href="" id="button"> Find A Property</a>
         </div>
 
-    </section>
-    <!-- /about section -->
-    <section class="about conatainer"  id="about">
-      <div class="img">
-    <img src="./assets/images/apartment.jpeg" alt="Home">
+        <div class="form_1">
+          <form id="search" action="" method="POST">
+              <label for="cities">Select A property in Nairobi:</label>
+              <select id="property" name="cities">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+              </select>
+              <input type="submit">
+          </form>
+          <div id="properties">
+
+          </div>
       </div>
-      <div class="about-text">
-        <span>About Us</span>
-    <h2>We Provide The Best <br>Property For You</h2>
-    <p>  Beacause we pride ourselves on being the most <br>loved apartments
-         in the world. We've got every house you want,<br>from one bedroom to five bedroom
-        dinning tables, and much more.
-      </p>
-      <a href="" id="btn">Learn More</a>
-
-      </div>
-    </section>
-    <!-- Sales -->
-     <section class="sales section" id="sales">
-        <!-- box-1 -->
-        <div class="box">
-         <i class="bx bx-user"></i>
-         <img src="./assets/images/home1.jpg" alt="home">
-         <h3>Make Your Dream True</i></h3>
-         <p> Find your place with immersive photo experiecnce and the most listings,including things you won't find anywhere else.</p>
-         <button id="button"> Buy Home</button>
-        </div>
-          <!-- box-2 -->
-          <div class="box">
-            <i class="bx bx-desktop"></i>
-            <img src="./assets/images/home2.jpg" alt="Sell Home">
-            <h3>Start Your Membership</i></h3>
-           <p> No matter what path you take to sell your home, we can help you navigate a successful sale.</p>
-           <button id="button"> Sell Home</button>
-           </div>
-             <!-- box-3 -->
-           <div class="box">
-            <i class="bx bx-home-alt"></i>
-            <img src="./assets/images/home3.jpg" alt="Rent Home">
-            <h3>Enjoy Your New Home></i></h3>
-            <p> Whether you’re looking for a single-family home, high-rise apartment, or something in between, we’ll help you find it.</p>
-            <button id="button"> Rent Home</button>
-        </div>
-
-     </section>
-    
-      <div class="contacthome">
+      <section class="section-contact">
 
         <div class="row">
-          <div class="contact ">
+          <div class="contact">
              <div class="contact__form">
               <form action="#" class="form">
                 <div class=" u-margin-bottom-medium">
@@ -103,7 +74,11 @@
              </div>
           </div>
         </div>
-      </div >
+      </section>
+
+
+    </section>
+    
 
 <script src="./assets/js/index.js"></script>
 </body>
