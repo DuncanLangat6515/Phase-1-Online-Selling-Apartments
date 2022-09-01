@@ -80,4 +80,16 @@ section{
 }
 .img img{
 border-radius: 3rem 0 3rem 3rem;
+width: 900px;
+height: 400px;
+margin-left: 30px;
+}
+
+.about-text span{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about-text h2{
+
 }
