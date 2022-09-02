@@ -13,7 +13,7 @@ const init = () => {
       for (let i = 0; i < houses.length; i++) {
         let div = document.getElementById('properties')
         let h4 = document.createElement('h4')
-        h4.innerHTML = `Houses in Nairobi ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price}`
+        h4.innerHTML = ` ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price}`
         div.appendChild(h4)
      
 
