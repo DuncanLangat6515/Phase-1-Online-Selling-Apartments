@@ -4,15 +4,25 @@ const init = () => {
   inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const input = document.getElementById('property');
+    fetch(`http://localhost:3000/${input.value}`)
+      .then(response => response.json())
 
-    fetch(`http://localhost:3000/House/${input.value}`)
-    .then(response => response.json())
-    .then(data => {
-      const house = document.getElementById('properties');
-      house.innerHTML = `${data.title} ${data.content} Ksh ${data.price}`;
-    });
-  });
+      .then(data => housesInCity(data))
+
+    function housesInCity(houses) {
+      for (let i = 0; i < houses.length; i++) {
+        let div = document.getElementById('properties')
+        let h4 = document.createElement('h4')
+        h4.innerHTML = `Houses in Nairobi ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price}`
+        div.appendChild(h4)
+     
+
+      }
+    }
+  })
 }
+
 
 document.addEventListener('DOMContentLoaded', init);
 
+//
