@@ -13,16 +13,15 @@ const init = () => {
       for (let i = 0; i < houses.length; i++) {
         let div = document.getElementById('properties')
         let h4 = document.createElement('h4')
-        h4.innerHTML = ` ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price}`
+        h4.innerHTML = ` ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price} ${houses[i].url}`
         div.appendChild(h4)
      
 
       }
     }
+    
   })
 }
 
 
 document.addEventListener('DOMContentLoaded', init);
-
-//

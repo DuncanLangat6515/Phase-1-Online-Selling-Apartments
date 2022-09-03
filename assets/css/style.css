@@ -9,7 +9,7 @@
     /* max-width: 100%; */
 }
 body{
-    background: url(/assets/images/home3.jpg);
+    background: url(/assets/images/home8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -140,7 +140,10 @@ margin-left: 30px;
     margin-top: 20rem;
     background-size: 100%;
     border-radius: 3px;
-    height: 50rem; }
+    height: 50rem; 
+    background: #3492fd;
+    border-radius: 20px 0  20px 0;
+}
 
 .contact__form {
       width: 50%;
@@ -149,7 +152,9 @@ margin-left: 30px;
 
 .form__group{
     color: blue;
-    font-weight: 400;
+    font-weight: 600;
+    background: rgb(121, 121, 126);
+    
 } 
 
 .row{
@@ -161,3 +166,26 @@ input{
 color: blue;
 cursor: pointer;
 }
+
+.comments{
+    padding-top: 18px;
+    padding-left: 17px;
+    border: 1px solid grey;
+    background: grey;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.comment-form{
+    margin: auto;
+}
+.comments:hover{
+    background: #3492fd;
+}
+.form_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    height: 200px;
+    padding:20px}

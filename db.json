@@ -1,35 +1,96 @@
 {
-  "House": [
+  "Nairobi": [
     {
       "id": 1,
-      "title": "Figy Apartment",
-      "content": "Two bedroom.",
-      "price" : 4500000
+      "name": "Figy Apartment",
+      "details": "Two bedroom.",
+      "price": 4500000
     },
     {
       "id": 2,
-      "title": "Kileleshwa Apartments",
-      "content": "Three bedroom.",
-      "price" : 5000000
+      "name": "Kileleshwa Apartments",
+      "details": "Three bedroom.",
+      "price": 5000000
+    }
+  ],
+  "Mombasa": [
+    {
+      "id": 1,
+      "name": "Wendani Apartment",
+      "details": "Four bedroom.",
+      "price": 5500000
+    },
+    {
+      "id": 2,
+      "name": "Karen's Apartemnt",
+      "details": "Five bedroom.",
+      "price": 6000000
     },
     {
       "id": 3,
-      "title": "Wendani Apartment",
-      "content": "Four bedroom.",
-      "price" : 5500000
+      "name": "Biggy Apartment",
+      "details": " Bedsitters.",
+      "price": 1500000
+    }
+  ],
+  "Nakuru": [
+    {
+      "id": 1,
+      "name": "Mawaret Apartment",
+      "details": "Four bedroom.",
+      "price": 5500000
     },
     {
-      "id": 4,
-      "title": "Karen's Apartemnt",
-      "content": "Five bedroom.",
-      "price" : 6000000
+      "id": 2,
+      "name": "Mukambi's Apartemnt",
+      "details": "Five bedroom.",
+      "price": 6000000
     },
     {
-      "id": 5,
-      "title": "Biggy Apartment",
-      "content": " Bedsitters.",
-      "price" : 1500000
+      "id": 3,
+      "name": "Gitau Apartment",
+      "details": " Bedsitters.",
+      "price": 1500000
+    }
+  ],
+  "Kisumu": [
+    {
+      "id": 1,
+      "name": "Muiba's Apartment",
+      "details": "Two bedroom.",
+      "price": 4500000
+    },
+    {
+      "id": 2,
+      "name": "Kebe's Apartemnt",
+      "details": "Three bedroom.",
+      "price": 5000000
+    },
+    {
+      "id": 3,
+      "name": "Mulwa's Apartment",
+      "details": " Bedsitters.",
+      "price": 1500000
+    }
+  ],
+  "Eldoret": [
+    {
+      "id": 1,
+      "name": "Mawaret Apartment",
+      "details": "Four bedroom.",
+      "price": 5500000
+    },
+    {
+      "id": 2,
+      "name": "Mukambi's Apartemnt",
+      "details": "Five bedroom.",
+      "price": 6000000
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Want to buy house.",
+      "id": 1
     }
   ]
 }
-
