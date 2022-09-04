@@ -13,7 +13,8 @@ const init = () => {
       for (let i = 0; i < houses.length; i++) {
         let div = document.getElementById('properties')
         let h4 = document.createElement('h4')
-        h4.innerHTML = ` ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price} ${houses[i].url}`
+        h4.innerHTML = ` ${houses[i].name} ${houses[i].details} Ksh ${houses[i].price} 
+        <img src="${houses[i].url}">`
         div.appendChild(h4)
      
 
@@ -21,6 +22,30 @@ const init = () => {
     }
     
   })
+  document.getElementById('comment_form').addEventListener('submit',addMessage)
+ function addMessage(e){
+  e.preventDefault() 
+  let message={
+    comment:e.target.comment_input.value
+  }
+  postMessage(message)
+ }
+ function postMessage(messageObj){
+  fetch('http://localhost:3000/messages',{
+    method:'POST',
+    headers:{
+      'Content-Type':'application/json',
+      Accept:'application/json'
+    },
+    body:JSON.stringify(messageObj)
+  })
+  .then(response=>response.json())
+ }
+
+
+
+
+
 }
 
 
