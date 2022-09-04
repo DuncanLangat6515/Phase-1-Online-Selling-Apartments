@@ -9,7 +9,7 @@
     /* max-width: 100%; */
 }
 body{
-    background: url(/assets/images/home8.jpg);
+    background: url("../images/home8.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
