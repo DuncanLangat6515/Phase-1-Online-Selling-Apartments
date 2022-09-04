@@ -10,7 +10,6 @@
 }
 body{
     background: url(/assets/images/home8.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -50,6 +49,7 @@ justify-content: space-between;
 .nav-links>li>a:hover{
     color: blue;
 }
+
 #btn{
     padding: 8px 22px;
     background: blue;
@@ -103,6 +103,7 @@ margin-left: 30px;
     background: #3492fd;
     color: black;
 }
+
 #button1{
     background-color: blue;
     color: white;
@@ -114,10 +115,11 @@ margin-left: 30px;
     background: #3492fd;
     color: black;
 }
+
 .form_1{
     background: rgb(121, 121, 126);
     align-content:center;
-    height: 200px;
+    height: auto;
     width: 50%;
     border-radius: 15px;
     padding: 30px;
@@ -130,25 +132,6 @@ margin-left: 30px;
 .label{
     margin: 10px;
 }
-  
-.section-contact {
-    padding: 7rem 0;
-    margin-top: -40vh;
-}
-  
-.contact {
-    margin-top: 20rem;
-    background-size: 100%;
-    border-radius: 3px;
-    height: 50rem; 
-    background: #3492fd;
-    border-radius: 20px 0  20px 0;
-}
-
-.contact__form {
-      width: 50%;
-      padding: 6rem; 
-    }
 
 .form__group{
     color: blue;
@@ -168,7 +151,7 @@ cursor: pointer;
 }
 
 .comments{
-    padding-top: 18px;
+    padding-top: 30px;
     padding-left: 17px;
     border: 1px solid grey;
     background: grey;
@@ -176,16 +159,26 @@ cursor: pointer;
     cursor: pointer;
     border-radius: 8px;
 }
+
 .comment-form{
     margin: auto;
 }
+
 .comments:hover{
     background: #3492fd;
 }
 .form_2{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;}
+h4 img{
+    width: 300px;
     height: 200px;
-    padding:20px}
+    display: flex;;
+}
+#properties {
+   display: inline;
+   color: blue;
+}
