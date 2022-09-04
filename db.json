@@ -30,14 +30,13 @@
       "url": "https://images.pexels.com/photos/772177/pexels-photo-772177.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "price": 6000000
     }
-  
   ],
   "Nakuru": [
     {
       "id": 1,
       "name": "Mawaret Apartment",
       "details": "Four bedroom.",
-      "url":"https://media.istockphoto.com/photos/beautiful-residential-home-exterior-on-bright-sunny-day-with-green-picture-id1211174464?b=1&k=20&m=1211174464&s=612x612&w=0&h=rAGfSLUvnrvPauUveA-upyUtxffW7LvCKvhqYLF8eH8=",
+      "url": "https://media.istockphoto.com/photos/beautiful-residential-home-exterior-on-bright-sunny-day-with-green-picture-id1211174464?b=1&k=20&m=1211174464&s=612x612&w=0&h=rAGfSLUvnrvPauUveA-upyUtxffW7LvCKvhqYLF8eH8=",
       "price": 5500000
     },
     {
@@ -53,7 +52,7 @@
       "id": 1,
       "name": "Muiba's Apartment",
       "details": "Two bedroom.",
-      "url":"https://images.pexels.com/photos/276593/pexels-photo-276593.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "url": "https://images.pexels.com/photos/276593/pexels-photo-276593.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "price": 4500000
     },
     {
@@ -62,7 +61,6 @@
       "details": "Three bedroom.",
       "price": 5000000,
       "url": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-
     }
   ],
   "Eldoret": [
@@ -70,14 +68,14 @@
       "id": 1,
       "name": "Mawaret Apartment",
       "details": "Four bedroom.",
-      "url":"https://images.pexels.com/photos/2888492/pexels-photo-2888492.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "url": "https://images.pexels.com/photos/2888492/pexels-photo-2888492.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "price": 5500000
     },
     {
       "id": 2,
       "name": "Mukambi's Apartemnt",
       "details": "Five bedroom.",
-      "url":"https://images.pexels.com/photos/534228/pexels-photo-534228.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "url": "https://images.pexels.com/photos/534228/pexels-photo-534228.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "price": 6000000
     }
   ],
@@ -85,6 +83,10 @@
     {
       "comment": "Want to buy house.",
       "id": 1
+    },
+    {
+      "comment": "danny memso",
+      "id": 2
     }
   ]
 }
